@@ -13,12 +13,17 @@ fruits = ["Bananas", "Apples", "Cookies"]
 # end
 
 # Use an enumerator instead:
+
+def display(obj)
+  puts obj
+end
+
 fruits.each do |fruit|
   puts "Fruit: #{fruit}"
 end
 
-# shouted_fruits = fruits.map do |fruit|
-#   fruit.upcase
-# end
+shouted_fruits = fruits.map do |fruit|
+  fruit.upcase
+end
 #
-# puts shouted_fruits.join(", ")
+puts shouted_fruits.join(", ")
