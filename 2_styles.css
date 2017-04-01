@@ -1,6 +1,21 @@
 /* Let's learn some CSS */
 
 /* 1. Simple selectors and properties */
+/*div { border: solid 4px blue;}*/
+div { background-color: pink;
+      border: solid 4px blue;
+      padding-left: 20px;
+      margin-left: 15px;
+}
+
+.important { color: red; font-weight: bold; }
+
+/*p { border: solid 4px blue; }*/
+
+h1 { color: green; }
+
+/*p { font-size: 8px; }*/
+
 
 
 /* 2. Complex selectors  */
