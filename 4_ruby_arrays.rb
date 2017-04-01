@@ -7,16 +7,16 @@ fruits = ["Bananas", "Apples", "Cookies"]
 # puts fruits.join(", ")
 # puts fruits[2]
 
-# # This works; but please don't do this:
-for fruit in fruits
+# # This works; but Rubyists don't do this.
+# for fruit in fruits
+#   puts "Fruit: #{fruit}"
+# end
+
+# Use an enumerator instead:
+fruits.each do |fruit|
   puts "Fruit: #{fruit}"
 end
 
-# Use the iterator pattern instead:
-# fruits.each do |fruit|
-#   puts "Fruit: #{fruit}"
-# end
-#
 # shouted_fruits = fruits.map do |fruit|
 #   fruit.upcase
 # end
